@@ -1,0 +1,80 @@
+$primary: #c19d60;
+$light: #d9d9d9;
+$dark: #1e1e1e;
+
+.footer {
+  color: $primary;
+  padding-top: 60px;
+  background-color: #303030;
+  p {
+    font-size: 16px;
+  }
+
+  h5 {
+    color: $primary;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  a {
+    color: $primary;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  .input-group .form-control {
+    border-radius: 0;
+    background-color: $dark;
+    border: 1px solid $primary;
+    color: $light;
+  }
+
+  .input-group .btn {
+    border-radius: 0;
+    background-color: $primary;
+    color: $dark;
+  }
+
+  .text-light {
+    color: $primary !important;
+  }
+
+  .fab {
+    font-size: 1.5rem;
+  }
+
+  .text-copywrite {
+    font-size: 12px;
+    font-weight: 500;
+    color: $primary;
+    margin-top: 20px;
+  }
+
+  .list-unstyled {
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  input::placeholder {
+    color: $primary; // Change this to your desired placeholder color
+    opacity: 0.47; // Ensures full opacity, as some browsers apply a default lower opacity
+  }
+
+  input:focus::placeholder {
+    color: $primary; // Optionally, change the placeholder color when the input is focused
+  }
+}

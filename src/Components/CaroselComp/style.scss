@@ -1,0 +1,75 @@
+$primary: #c19d60;
+$light: #d9d9d9;
+$dark: #1e1e1e;
+
+.carousel {
+  h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+    span {
+      color: $primary; // Primary color
+    }
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .image-section {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+}
+
+.bullets {
+  display: flex;
+  gap: 16px;
+//   margin-top: 40px;
+//   margin-bottom: 40px;
+}
+
+.bullets span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid $light; /* Adjust color as needed */
+  display: inline-block;
+  position: relative; /* Necessary for pseudo-elements positioning */
+}
+
+.bullets span.active {
+  background-color: $primary; /* Replace with your primary color variable */
+  border: 2px solid $primary; /* Replace with your primary color variable */
+}
+
+.bullets span.active::before,
+.bullets span.active::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bullets span.active::before {
+  top: -4px; /* Adjust to position inner border */
+  left: -4px; /* Adjust to position inner border */
+  right: -4px; /* Adjust to position inner border */
+  bottom: -4px; /* Adjust to position inner border */
+  border: 2px solid $primary; /* Inner border color, replace with your primary color variable */
+}
+
+.bullets span.active::after {
+  top: -8px; /* Adjust to position outer border */
+  left: -8px; /* Adjust to position outer border */
+  right: -8px; /* Adjust to position outer border */
+  bottom: -8px; /* Adjust to position outer border */
+  border: 2px solid $dark; /* Outer border color */
+}

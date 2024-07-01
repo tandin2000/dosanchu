@@ -1,0 +1,77 @@
+$primary: #c19d60;
+$light: #d9d9d9;
+$dark: #1e1e1e;
+
+.review-carousel {
+    h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        span {
+            color: $primary; // Primary color
+        }
+    }
+
+    .review-card {
+        border-radius: 8px;
+        padding: 20px;
+        border: 1px solid rgba(217, 217, 217, 0.1);
+        margin-bottom: 10px;
+    }
+
+    .reviewer-info {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 18px;
+            color: $light;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 10px 0;
+            color: $light;
+        }
+
+        .stars {
+            i {
+                color: $primary;
+                margin-right: 2px;
+            }
+
+            .far {
+                color: $light;
+            }
+        }
+    }
+
+    .bullets {
+        display: flex;
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .bullets span {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 2px solid $light; /* Adjust color as needed */
+        display: inline-block;
+        position: relative; /* Necessary for pseudo-elements positioning */
+    }
+
+    .bullets span.active {
+        background-color: $primary; /* Replace with your primary color variable */
+        border: 2px solid $primary; /* Replace with your primary color variable */
+    }
+}

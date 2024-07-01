@@ -1,0 +1,71 @@
+$primary: #c19d60;
+$light: #d9d9d9;
+$dark: #1E1E1E;
+
+.card-component-order {
+    position: relative;
+    width: 100%;
+    height: 200px; // Adjust height as needed
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 8px;
+    background: linear-gradient(to bottom left, rgba(48, 48, 48, 0.5) 0%, rgb(30, 30, 30) 100%);
+
+    .inner-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 16px;
+
+        .top-left-corner {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            width: 150px; // Adjust size as needed
+            height: 80px;
+            border-top: 2px solid $light;
+            border-left: 2px solid $light;
+            border-top-left-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 16px;
+            color: $light;
+            white-space: nowrap; // Prevent text from wrapping
+            text-transform: uppercase;
+            z-index: 10;
+        }
+
+        .bottom-left-text {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            color: $dark; // Text color
+            font-size: 16px; // Adjust font size as needed
+            padding: 8px 16px;
+            background-color: $primary;
+            border-radius: 8px;
+        }
+
+        .image-container {
+            position: absolute;
+            top: 50%;
+            right: 16px;
+            transform: translateY(-50%);
+            width: 150px; // Adjust size as needed
+            height: 150px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+        }
+    }
+}

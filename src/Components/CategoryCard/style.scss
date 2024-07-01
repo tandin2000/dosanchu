@@ -1,0 +1,44 @@
+$primary: #c19d60;
+$light: #d9d9d9;
+$dark: #1E1E1E;
+
+.card-component {
+    position: relative;
+    width: 100%;
+    height: 200px; // Adjust height as needed
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 8px;
+
+    .inner-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 16px;
+        background: rgba(0, 0, 0, 0.5); // Semi-transparent overlay
+
+        .top-left-corner {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            width: 80px; // Adjust size as needed
+            height: 80px;
+            border-top: 2px solid $light;
+            border-left: 2px solid $light;
+            border-top-left-radius: 8px;
+        }
+
+        .bottom-left-text {
+            color: white; // Text color
+            font-size: 24px; // Adjust font size as needed
+            font-weight: bold;
+        }
+    }
+}
