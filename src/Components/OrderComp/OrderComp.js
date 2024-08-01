@@ -1,25 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './style.scss';
-import { ThemeColor } from '../../Layout/style';
 
-const OrderComp = ({ text, image }) => {
+const OrderComp = ({ text, image, link, btnInfo }) => {
     return (
-        <div className="card-component-order">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="card-component-order">
             <div className="inner-card">
                 <div className="top-left-corner">{text}</div>
-                <div className="bottom-left-text">Order Now</div>
+                <div className="bottom-left-text">{btnInfo}</div>
                 <div className="image-container">
                     <img src={image} alt="Order" />
                 </div>
             </div>
-        </div>
+        </a>
     );
 };
 
 OrderComp.propTypes = {
     text: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    btnInfo: PropTypes.string.isRequired,
 };
 
 export default OrderComp;

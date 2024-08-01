@@ -1,13 +1,17 @@
 import React from 'react'
 import CardCategory from '../../Components/CategoryCard/CardCategory';
-import CardBG from '../../Assets/Images/CardBG.png';
+import mondayBG from '../../Assets/Images/mondayBG.jpg';
+import tuesdayBG from '../../Assets/Images/tuesdayBG.jpg';
+import wednesdayBG from '../../Assets/Images/wednesdayBG.jpg';
+import thursdayBG from '../../Assets/Images/thursdayBG.jpg';
 import DailySpecialCard from '../../Components/DailySpecialCard/DailySpecialCard';
 
 export default function DailySpecial() {
     const cardsData = [
-        { day:'Monday', text: 'Any Dosa Special Served With Dessert', image: CardBG, price:'7.99' },
-        { day:'Monday', text: 'Any Dosa Special Served With Dessert', image: CardBG, price:'7.99' },
-        { day:'Monday', text: 'Any Dosa Special Served With Dessert', image: CardBG, price:'7.99' },
+        { day:'Monday', text: 'Biriyani Special', image: mondayBG, price:'12.99' },
+        { day:'Tuesday', text: 'Kottu Special', image: tuesdayBG, price:'12.99' },
+        { day:'Wednesday', text: 'Curry Special', image: wednesdayBG, price:'13.99' },
+        { day:'Thursday', text: 'Dosa Special', image: thursdayBG, price:'6.99' },
     ];
     return (
         <>

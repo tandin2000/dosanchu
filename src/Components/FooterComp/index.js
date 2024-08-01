@@ -10,25 +10,25 @@ const Footer = (props) => {
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <h5>FOLLOW US ON</h5>
                         <div className="d-flex">
-                            <a href="#" className="text-light me-3"><box-icon type='logo' name='facebook-circle' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
-                            <a href="#" className="text-light me-3"><box-icon type='logo' name='tiktok' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
-                            <a href="#" className="text-light me-3"><box-icon type='logo' name='instagram-alt' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
+                            <a href="https://www.facebook.com/share/kbzMjfE4FD4FjX4h/?mibextid=LQQJ4d" target="_blank" className="text-light me-3"><box-icon type='logo' name='facebook-circle' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
+                            <a href="#" className="text-light me-3"><box-icon type='logo' name='tiktok' target="_blank" style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
+                            <a href="https://www.instagram.com/dosa.n_chutney?igsh=MWVka3VvZG1sbnJ0ag==" target="_blank" className="text-light me-3"><box-icon type='logo' name='instagram-alt' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
                         </div>
                         <div className="" style={{marginTop:40}}>
                             <h5>ADDRESS</h5>
-                            <p>1345 KINGSWAY, VANCOUVER BC, V5V 3E3</p>
+                            <p>4890 Victoria Dr, Vancouver, BC V5N 4P5</p>
                         </div>
 
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <h5>CALL NOW</h5>
-                        <p>778 379 7791</p>
+                        <p><a href="tel:+16043364453" style={{"text-decoration": "none", "color": "inherit"}}>+1(604) 336 4453</a></p>
                         <div className=""style={{marginTop:40}}>
                             <h5>OPENING HOURS</h5>
-                            <p>Open 7 days a Week<br />11 AM to 3 AM</p>
+                            <p>Open 7 days a Week<br />12 PM to 12 AM</p>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-6 col-sm-12">
+                    <div className="col-lg-2 col-md-6 col-sm-12 d-none d-md-block">
                         <div className="">
                             <h5>QUICK LINKS</h5>
                             <ul className="list-unstyled">
@@ -40,7 +40,7 @@ const Footer = (props) => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12 sm-center">
                         <h5>SUBSCRIBE</h5>
                         <p>Get More Newsletters And Updates Quickly</p>
                         <form>

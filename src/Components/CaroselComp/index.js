@@ -16,7 +16,7 @@ const CarouselComponent = ({ images }) => {
         <div className="row carousel">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-md-12">
                 <h2>We Are <br /> <span>DOSA N CHUTNEY</span></h2>
-                <p>Horizontal arrow effect fill create. Opacity frame rotate vector effect. Group layout move plugin team line outline comment connection polygon. Outline arrow follower plugin hand. Plugin invite follower invite invite vector. Stroke subtract pixel create ipsum. Undo main invite union text.</p>
+                <p>We're your local spot in BC for amazing South Indian and Sri Lankan cuisine. Our menu is packed with flavorful dishes that bring the vibrant tastes of South Asia to your plate. From crispy dosas to rich curries, every meal is crafted with love and tradition. Come dine with us and enjoy a culinary experience that will leave you coming back for more!</p>
                 <div className="bullets" style={{marginTop:40, marginBottom:40}}>
                     {images.map((_, index) => (
                         <span key={index} className={currentIndex === index ? 'active' : ''}></span>

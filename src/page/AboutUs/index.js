@@ -11,9 +11,9 @@ import PartyHallComp from './../../Components/PartyHallComp/index';
 
 const carouselImages = [
     CarouselImage,
-    CarouselImage2,
-    CarouselImage,
-    CarouselImage2,
+    // CarouselImage2,
+    // CarouselImage,
+    // CarouselImage2,
 ];
 
 export default function AboutUs() {

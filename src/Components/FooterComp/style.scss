@@ -78,3 +78,13 @@ $dark: #1e1e1e;
     color: $primary; // Optionally, change the placeholder color when the input is focused
   }
 }
+
+.sm-center_{
+
+}
+
+.sm-center {
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}

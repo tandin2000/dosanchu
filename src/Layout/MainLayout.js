@@ -35,7 +35,7 @@ export default function MainLayout() {
                             <div className='information-wrapper-2'>
                                 <div className='text-icon-container item-1'>
                                     <box-icon type='solid' name='phone' style={{ fill: ThemeColor.primaryColor, height: '18px' }}></box-icon>
-                                    <span>+94(0) 75 89 82 868</span>
+                                    <span><a href="tel:+16043364453" style={{"text-decoration": "none", "color": "inherit"}}>+1(604) 336 4453</a></span>
                                 </div>
                                 <div className='text-icon-container item-2'>
                                     <box-icon type='solid' name='time-five' style={{ fill: ThemeColor.primaryColor, height: '18px' }}></box-icon>
@@ -44,7 +44,7 @@ export default function MainLayout() {
                             </div>
                             <div className='text-icon-container item-3'>
                                 <box-icon type='solid' name='envelope' style={{ fill: ThemeColor.primaryColor, height: '18px' }}></box-icon>
-                                <span>www.dosafactoryvancouver.com</span>
+                                <a href="mailto:management@dosanchutney.ca" style={{"text-decoration": "none", "color": "inherit"}}>management@dosanchutney.ca</a>
                             </div>
                         </div>
                     </div>
@@ -53,12 +53,12 @@ export default function MainLayout() {
                     <div className='col-lg-12 col-md-12 col-sm-0 col-xs-0'>
                         <div className='information-wrapper-3'>
                             <div className='product-logo'>
-                                <img src={Logo} alt='brand logo' className='brand-logo' />
+                                <img src={Logo} alt='brand logo' height="50px" width="300px" className='brand-logo' />
                             </div>
                             <div className='nav-items'>
                                 <nav>
                                     <ul>
-                                        {['Home', 'Menu', 'Daily Special', 'Party Hall', 'About Us', 'Order Now'].map((item) => (
+                                        {['Home', 'Menu', 'Daily Special', 'About Us', 'Order Now'].map((item) => (
                                             <li key={item}>
                                                 <a
                                                     className={activeItem === item ? 'selected' : ''}
@@ -86,7 +86,7 @@ export default function MainLayout() {
                             </div>
                             <nav>
                                 <ul>
-                                    {['Home', 'Menu', 'Daily Special', 'Party Hall', 'About Us', 'Order Now'].map((item) => (
+                                    {['Home', 'Menu', 'Daily Special', 'About Us', 'Order Now'].map((item) => (
                                         <li key={item}>
                                             <a
                                                 className={activeItem === item ? 'selected' : ''}
@@ -106,7 +106,7 @@ export default function MainLayout() {
             {activeItem === 'Home' && <HomePage setComponent={handleItemClick}/>}
             {activeItem === 'Menu' && <MenuPage />}
             {activeItem === 'Daily Special' && <DailySpecial />}
-            {activeItem === 'Party Hall' && <PartyHall />}
+            {/* {activeItem === 'Party Hall' && <PartyHall />} */}
             {activeItem === 'About Us' && <AboutUs />}
             {activeItem === 'Order Now' && <OrderNow />}
 

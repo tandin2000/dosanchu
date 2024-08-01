@@ -26,10 +26,10 @@ export default function HomePage(props) {
         { text: 'Indian-Chinese', image: CardBG },
     ];
     const carouselImages = [
-        CarouselImage,
+        // CarouselImage,
         CarouselImage2,
-        CarouselImage,
-        CarouselImage2,
+        // CarouselImage,
+        // CarouselImage2,
     ];
 
     const reviews = [
@@ -66,11 +66,11 @@ export default function HomePage(props) {
                 <div className='row'>
                     <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                         <div className='hero-content'>
-                            <h1 className='hero-title'>AUTHENTIC <br />
-                                <span>SOUTH INDIAN</span> CUISINE</h1>
+                            <h1 className='hero-title'><span>SOUTH INDIAN </span>& <br /> 
+                             SRI LANKAN CUISINE</h1>
                             <p>
-                                Horizontal arrow effect fill create. Opacity frame rotate vector effect. Group layout move plugin team line outline comment connection polygon. Outline arrow follower plugin hand. Plugin invite follower invite invite vector. Stroke subtract pixel create ipsum. Undo main invite union text.
-                            </p>
+                            Welcome to Dosa N Chutney in BC!
+                            <br/>We specialize in serving mouth watering South Indian and Sri Lankan cuisine. Whether you're craving a classic dosa or a delectable Sri Lankan curry, our menu is brimming with flavors that will entice you to return. Join us for a meal and savor the vibrant tastes of South Asia.</p>
                             <button onClick={() => props.setComponent('Order Now')}>
                                 <div className='text-icon-container-2 item-1'>
                                     <box-icon type='solid' name='cart-alt' style={{ fill: ThemeColor.darkColor, height: '18px' }}></box-icon>
@@ -95,9 +95,9 @@ export default function HomePage(props) {
                 <div style={{ marginTop: '80px' }}>
                     <CarouselComponent images={carouselImages} />
                 </div>
-                <div style={{ marginTop: '80px' }}>
+                {/* <div style={{ marginTop: '80px' }}>
                     <ReviewCarousel reviews={reviews} />
-                </div>
+                </div> */}
                 <div style={{ marginTop: '80px' }}>
                     <ContactInfo />
                 </div>
