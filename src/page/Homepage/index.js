@@ -22,8 +22,8 @@ export default function HomePage(props) {
 
     const cardsData = [
         { text: 'South Indian Curries', image: CardBG },
-        { text: 'Tandoori Specials', image: CardBG },
-        { text: 'Indian-Chinese', image: CardBG },
+        { text: 'Dosa Specials', image: CardBG },
+        { text: 'Indo-Chinese', image: CardBG },
     ];
     const carouselImages = [
         // CarouselImage,
