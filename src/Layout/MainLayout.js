@@ -39,7 +39,7 @@ export default function MainLayout() {
                                 </div>
                                 <div className='text-icon-container item-2'>
                                     <box-icon type='solid' name='time-five' style={{ fill: ThemeColor.primaryColor, height: '18px' }}></box-icon>
-                                    <span>11 AM to 3 AM</span>
+                                    <span>12 PM to 12 AM</span>
                                 </div>
                             </div>
                             <div className='text-icon-container item-3'>
