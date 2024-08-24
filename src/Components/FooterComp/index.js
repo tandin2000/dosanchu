@@ -11,7 +11,7 @@ const Footer = (props) => {
                         <h5>FOLLOW US ON</h5>
                         <div className="d-flex">
                             <a href="https://www.facebook.com/share/kbzMjfE4FD4FjX4h/?mibextid=LQQJ4d" target="_blank" className="text-light me-3"><box-icon type='logo' name='facebook-circle' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
-                            <a href="#" className="text-light me-3"><box-icon type='logo' name='tiktok' target="_blank" style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
+                            <a href="https://www.tiktok.com/@dosa.n.chutney?_t=8ogmAGHOIC6&_r=1" className="text-light me-3"><box-icon type='logo' name='tiktok' target="_blank" style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
                             <a href="https://www.instagram.com/dosa.n_chutney?igsh=MWVka3VvZG1sbnJ0ag==" target="_blank" className="text-light me-3"><box-icon type='logo' name='instagram-alt' style={{ fill: ThemeColor.primaryColor, height: '24px' }} ></box-icon></a>
                         </div>
                         <div className="" style={{marginTop:40}}>

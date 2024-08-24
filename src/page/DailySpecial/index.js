@@ -8,8 +8,8 @@ import DailySpecialCard from '../../Components/DailySpecialCard/DailySpecialCard
 
 export default function DailySpecial() {
     const cardsData = [
-        { day:'Monday', text: 'Biriyani Special', image: mondayBG, price:'12.99' },
-        { day:'Tuesday', text: 'Kottu Special', image: tuesdayBG, price:'12.99' },
+        { day:'Monday', text: 'Biryani Special', image: mondayBG, price:'12.99' },
+        { day:'Tuesday', text: 'Kothu Special', image: tuesdayBG, price:'12.99' },
         { day:'Wednesday', text: 'Curry Special', image: wednesdayBG, price:'13.99' },
         { day:'Thursday', text: 'Dosa Special', image: thursdayBG, price:'6.99' },
     ];

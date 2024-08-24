@@ -21,7 +21,7 @@ export default function AboutUs() {
     return (
         <>
             <div className="container-fluid full-width-div hang-up">
-                <span className="centered-text">WHO WE ARE</span>
+                <span className="centered-text">Who We Are</span>
             </div>
             <div className="container-fluid spacer"></div>
             <div className='container'>

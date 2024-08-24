@@ -13,6 +13,9 @@ import CardCategory from '../../Components/CategoryCard/CardCategory';
 import CarouselComponent from '../../Components/CaroselComp';
 import ReviewCarousel from '../../Components/ReviewComp';
 import ContactInfo from '../../Components/ContactComp';
+import curryBG from '../../Assets/Images/wednesdayBG.jpg';
+import dosaBG from '../../Assets/Images/thursdayBG.jpg';
+import puttuBG from '../../Assets/Images/puttu.jpg';
 
 
 
@@ -21,9 +24,9 @@ export default function HomePage(props) {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
     const cardsData = [
-        { text: 'South Indian Curries', image: CardBG },
-        { text: 'Dosa Specials', image: CardBG },
-        { text: 'Indo-Chinese', image: CardBG },
+        { text: 'Dosa Specials', image: dosaBG },
+        { text: 'Curries', image: curryBG },
+        { text: 'Puttu', image: puttuBG },
     ];
     const carouselImages = [
         // CarouselImage,
@@ -70,7 +73,7 @@ export default function HomePage(props) {
                              SRI LANKAN CUISINE</h1>
                             <p>
                             Welcome to Dosa N Chutney in BC!
-                            <br/>We specialize in serving mouth watering South Indian and Sri Lankan cuisine. Whether you're craving a classic dosa or a delectable Sri Lankan curry, our menu is brimming with flavors that will entice you to return. Join us for a meal and savor the vibrant tastes of South Asia.</p>
+                            <br/>We specialize in serving mouth watering South Indian and Sri Lankan cuisine. Whether you're craving a classic dosa or a delectable South Indian and Sri Lankan curries, our menu is brimming with flavors that will entice you to return. Join us for a meal and savor the vibrant tastes of South Asia.</p>
                             <button onClick={() => props.setComponent('Order Now')}>
                                 <div className='text-icon-container-2 item-1'>
                                     <box-icon type='solid' name='cart-alt' style={{ fill: ThemeColor.darkColor, height: '18px' }}></box-icon>
