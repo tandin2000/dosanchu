@@ -33,7 +33,6 @@ export default function MenuPage() {
                 const jsonData = XLSX.utils.sheet_to_json(worksheet);
 
                 // Assuming the Excel file has columns: Image, Title, Description, Price
-                console.log(jsonData)
                 const formattedData = jsonData.map(item => ({
                     title: item['Menu Item'],
                     description: item['Description'],
