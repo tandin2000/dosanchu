@@ -90,8 +90,8 @@ export default function HomePage(props) {
                 </div>
                 <div className='row' style={{ marginTop: '80px' }}>
                     {cardsData.map((card, index) => (
-                        <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 col-md-12'>
-                            <CardCategory key={index} text={card.text} image={card.image} />
+                        <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 col-md-12' >
+                            <CardCategory key={index} props={props} text={card.text} image={card.image} />
                         </div>
                     ))}
                 </div>
