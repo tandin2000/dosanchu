@@ -105,7 +105,7 @@ export default function MainLayout() {
 
             {activeItem === 'Home' && <HomePage setComponent={handleItemClick}/>}
             {activeItem === 'Menu' && <MenuPage />}
-            {/* {activeItem === 'Daily Special' && <DailySpecial />} */}
+            {activeItem === 'Daily Special' && <DailySpecial />}
             {/* {activeItem === 'Party Hall' && <PartyHall />} */}
             {activeItem === 'About Us' && <AboutUs />}
             {activeItem === 'Order Now' && <OrderNow />}

@@ -34,7 +34,7 @@ const Footer = (props) => {
                             <ul className="list-unstyled">
                                 <li><a  onClick={() => props.setComponent('Home')}>Home</a></li>
                                 <li><a  onClick={() => props.setComponent('Menu')}>Menu</a></li>
-                                {/* <li><a onClick={() => props.setComponent('Daily Special')}>Daily Special</a></li> */}
+                                <li><a onClick={() => props.setComponent('Daily Special')}>Daily Special</a></li>
                                 <li><a onClick={() => props.setComponent('About Us')}>About Us</a></li>
                                 <li><a onClick={() => props.setComponent('Order Now')}>Order Now</a></li>
                             </ul>
