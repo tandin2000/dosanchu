@@ -43,7 +43,7 @@ const ContactInfo = () => {
                         </div>
                         <div className='content-wrapper'>
                             <h3>OPEN HOURS</h3>
-                            <p>Open 7 days a Week  <br/>12 PM to 12 AM</p>
+                            <p>Open 7 days a Week  <br/>11 AM to 3 AM</p>
                         </div>
                     </div>
                 </div>

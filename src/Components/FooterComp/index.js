@@ -25,7 +25,7 @@ const Footer = (props) => {
                         <p><a href="tel:+16043364453" style={{"text-decoration": "none", "color": "inherit"}}>+1(604) 336 4453</a></p>
                         <div className=""style={{marginTop:40}}>
                             <h5>OPENING HOURS</h5>
-                            <p>Open 7 days a Week<br />12 PM to 12 AM</p>
+                            <p>Open 7 days a Week<br />11 AM to 3 AM</p>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-6 col-sm-12 d-none d-md-block">
